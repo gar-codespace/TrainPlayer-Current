@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout name="Time Saver" scale="3" bitmap="" zoom="3.55524" xdim="6211" ydim="1197" xoffset="0" yoffset="0" bmap_size="x:7211,y:1197" def_cars="DropKick" bkcolor="224,227,207" descr="John Allen&apos;s Time Saver layout adapted to TrainPlayer and JMRI.">
+<tracks>
+<jxns>
+<jxn t="3" id="1" pt="372,470"></jxn>
+<jxn t="3" id="2" pt="1592,471" swp="1"></jxn>
+<jxn t="3" id="3" pt="2694,671"></jxn>
+<jxn t="3" id="5" pt="482,996"></jxn>
+<jxn t="3" id="6" pt="2269,470" swp="1"></jxn>
+<jxn t="3" id="7" pt="3066,269" swp="1"></jxn>
+<jxn t="3" id="8" pt="4723,270"></jxn>
+<jxn t="3" id="9" pt="631,270"></jxn>
+<jxn t="3" id="10" pt="4735,671"></jxn>
+<jxn t="3" id="11" pt="5836,949"></jxn>
+<jxn t="3" id="12" pt="4337,671"></jxn>
+<jxn t="3" id="13" pt="4104,671"></jxn>
+<jxn t="3" id="16" pt="3053,471"></jxn>
+<jxn t="3" id="17" pt="1317,470"></jxn>
+<jxn t="3" id="18" pt="1389,768"></jxn>
+<jxn t="3" id="19" pt="3342,270"></jxn>
+<jxn t="3" id="20" pt="4968,734"></jxn>
+<jxn t="3" id="21" pt="2249,268"></jxn>
+<jxn t="3" id="35" pt="2401,672" swp="1"></jxn>
+<jxn t="3" id="22" pt="3693,470"></jxn>
+<jxn t="3" id="23" pt="4148,526"></jxn>
+<jxn t="3" id="24" pt="3932,490"></jxn>
+<jxn t="3" id="25" pt="2004,670"></jxn>
+<jxn t="3" id="26" pt="1728,690"></jxn>
+<jxn t="3" id="27" pt="1554,727"></jxn>
+</jxns>
+<trks>
+<str t="1" id="1" rect="372,469,1317,471" tag="B" js="1" jn="17"></str>
+<str t="1" id="2" rect="2694,670,4104,672" tag="D" js="3" jn="13"></str>
+<str t="1" id="4" rect="2401,670,2694,673" js="3" jn="35"></str>
+<str t="1" id="6" rect="3066,268,3342,271" js="7" jn="19"></str>
+<str t="1" id="9" rect="4735,671,4968,734" js="10" jn="20"></str>
+<str t="1" id="10" rect="4337,670,4735,672" js="10" jn="12"></str>
+<str t="1" id="11" rect="4104,670,4337,672" js="12" jn="13"></str>
+<str t="1" id="15" rect="4148,526,4735,671" js="10" jn="23"></str>
+<str t="1" id="17" rect="1317,469,1592,472" js="17" jn="2"></str>
+<str t="1" id="18" rect="482,768,1389,996" tag="C" js="18" jn="5"></str>
+<str t="1" id="19" rect="3342,269,4723,271" tag="E" js="19" jn="8"></str>
+<str t="1" id="20" rect="4968,734,5836,949" tag="F" js="20" jn="11"></str>
+<str t="1" id="21" rect="631,268,2249,270" tag="A" js="21" jn="9"></str>
+<str t="1" id="3" rect="1592,471,2401,672" js="2" jn="35"></str>
+<str t="1" id="5" rect="2004,670,2401,672" js="35" jn="25"></str>
+<str t="1" id="35" rect="1592,469,2269,472" js="2" jn="6"></str>
+<str t="1" id="7" rect="2269,269,3066,470" js="6" jn="7"></str>
+<str t="1" id="8" rect="2249,267,3066,270" js="21" jn="7"></str>
+<str t="1" id="16" rect="2269,469,3053,472" js="6" jn="16"></str>
+<str t="1" id="22" rect="3053,469,3693,472" js="22" jn="16"></str>
+<str t="1" id="23" rect="3932,490,4148,526" js="23" jn="24"></str>
+<str t="1" id="24" rect="3693,470,3932,490" js="24" jn="22"></str>
+<str t="1" id="25" rect="1728,670,2004,690" js="25" jn="26"></str>
+<str t="1" id="26" rect="1554,690,1728,727" js="26" jn="27"></str>
+<str t="1" id="27" rect="1389,727,1554,768" js="27" jn="18"></str>
+</trks>
+<scenery>
+<scn t="16" id="4" rect="5866,881,6049,1050" otype="3" text="F" bktype="1" fill="R:201,G:254,B:192" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="5" rect="163,392,346,561" otype="3" text="B" bktype="1" fill="R:235,G:193,B:253" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="6" rect="420,193,603,359" otype="3" text="A" bktype="1" fill="R:255,G:255,B:192" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="7" rect="3243,762,3426,931" otype="3" text="D" bktype="1" fill="R:193,G:240,B:253" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="8" rect="269,924,452,1093" otype="3" text="C" bktype="1" fill="R:251,G:195,B:205" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="12" rect="4754,190,4937,356" otype="3" text="E" bktype="1" fill="R:253,G:235,B:193" bktype_l="1" fill_l="R:0,G:0,B:0" lwid="5" font="120,700,0,0,Arial,RRU=200" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="13" rect="650,112,935,201" otype="3" text="3 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="14" rect="4427,95,4712,184" otype="3" text="3 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="2"></scn>
+<scn t="16" id="15" rect="5500,1033,5785,1122" otype="3" text="2 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="16" rect="3445,758,3730,847" otype="3" text="2 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="17" rect="376,541,661,630" otype="3" text="2 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<scn t="16" id="18" rect="594,1051,879,1140" otype="3" text="2 Cars" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<group t="19" id="2" rect="1436,913,3017,1131" otype="1" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10">
+<group>
+<scn t="16" id="1" rect="1441,1037,3012,1126" otype="3" text="Start and stop the timer with the &apos;j&apos; key." bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="60,400,0,0,Arial,RRU=100" txtcolor="R:0,G:0,B:0"></scn>
+<scn t="16" id="19" rect="1882,918,2571,1007" otype="3" text="Time Saver" bktype="0" fill="R:255,G:255,B:192" bktype_l="0" fill_l="R:128,G:128,B:128" lwid="10" font="80,400,0,0,Arial,RRU=133" txtcolor="R:0,G:0,B:0"></scn>
+</group>
+</group>
+</scenery>
+</tracks>
+<trains selno="3" trk="0" dists="0">
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="3" rect="5209,666,5947,1104" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM3" loaded="1" loadname="Load" dest="F" collname="1930s-1940s" cartype="box 40 usra" trk="20" dists="629"></car>
+<car t="5" id="4" rect="4693,534,5431,976" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM4" loaded="1" loadname="Load" dest="F" collname="1930s-1940s" cartype="box 40 usra" trk="20" dists="97"></car>
+</cars>
+</trn>
+<trn t="6" id="5" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="7" rect="1379,112,2101,424" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM2" loaded="1" loadname="Load" dest="A" collname="1930s-1940s" cartype="box 40 usra" trk="21" dists="509" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="2" rect="407,702,1145,1142" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM1" loaded="1" loadname="Load" dest="C" collname="1930s-1940s" cartype="box 40 usra" trk="18" dists="632" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="3" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="2981,314,3669,626" flags="4194304" type="1" outl="128,128,128" fill="0,0,0" len="518" wid="141" label="ES1" dest="~" collname="1930s-1940s" cartype="0-4-0t" trk="22" dists="368" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="6" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="5" rect="2970,516,3692,826" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM5" loaded="1" loadname="Load" dest="D" collname="1930s-1940s" cartype="box 40 usra" trk="2" dists="637"></car>
+</cars>
+</trn>
+<trn t="6" id="1" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="6" rect="350,315,1072,625" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="141" label="XM6" loaded="1" loadname="Load" dest="B" collname="1930s-1940s" cartype="box 40 usra" trk="1" dists="339"></car>
+</cars>
+</trn>
+</trains>
+<clock smult="60"></clock>
+<advops showoconopen="0" zoomonopen="0">
+<industries>
+<ind id="1" industry="B" aar="XM" s__r="R" load="Load"></ind>
+<ind id="2" industry="A" aar="XM" s__r="R" load="Load"></ind>
+<ind id="3" industry="C" aar="XM" s__r="R" load="Load"></ind>
+<ind id="4" industry="B" aar="XM" s__r="S" load="Load"></ind>
+<ind id="5" industry="C" aar="XM" s__r="S" load="Load"></ind>
+<ind id="6" industry="A" aar="XM" s__r="S" load="Load"></ind>
+<ind id="7" industry="D" aar="XM" s__r="S" load="Load"></ind>
+<ind id="8" industry="E" aar="XM" s__r="S" load="Load"></ind>
+<ind id="9" industry="D" aar="XM" s__r="R" load="Load"></ind>
+<ind id="10" industry="E" aar="XM" s__r="R" load="Load"></ind>
+<ind id="11" industry="F" aar="XM" s__r="R" load="Load"></ind>
+<ind id="12" industry="F" aar="XM" s__r="S" load="Load"></ind>
+</industries>
+<locations>
+<loc id="2" locale="TS;B" track="B" class="industry" vs_add="1"></loc>
+<loc id="6" locale="TS;D" track="D" class="industry"></loc>
+<loc id="7" locale="TS;C" track="C" class="industry" vs_add="1"></loc>
+<loc id="8" locale="TS;A" track="A" class="industry" vs_add="1"></loc>
+<loc id="9" locale="TS;F" track="F" class="industry" vs_add="1"></loc>
+<loc id="10" locale="TS;E" track="E" class="industry" vs_add="1"></loc>
+</locations>
+<trainseqs active_row="1">
+<tseq id="1" engine="ESS7" trainname="x" startat="A" endat="E" visits="B" active="X"></tseq>
+</trainseqs>
+<swrows></swrows>
+<ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
+</advops>
+<roadstyles>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="1" showtr="0"></roadstyle>
+</roadstyles>
+<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.281275" ctr="x:3104,y:598" vtype="1628" fit="1"></winview>
+<scripts>
+<script id="1" flags="6" cmdix="4192"><![CDATA[* Master script on layout TimeSaver
+
+** Assign a note to a subroutine
+    Let NoteForRandomRoads = 0
+    Let NoteForPersonalizedSettings = 2
+    Let NoteForPressX = 0
+    Let NoteForPressY = 0
+    Let NoteForPressZ = 0
+
+** Set Up QuickKeys
+    Call InitializeQuickKeys
+    Call SetLanguage en  ** Language choices are: en, de, fr, es
+
+** Select which subroutines to use
+    Call JobTimer Setup
+    Call o2o Setup
+    Call RandomRoads *Setup
+    Call TurnTable *Setup 0
+    Call DropKick Setup
+    Call SpeedSwitching Setup
+    Call QuickKeys Setup
+
+StartingPoint:
+
+On Key
+
+Drive $Train($Train)
+
+Call QuickKeys
+
+EndDrive
+
+GoTo StartingPoint]]></script>
+<script id="2" flags="8"><![CDATA[** Personalized Settings
+
+** Make adjustments to an AO enabled layout if necessary
+    Let x = $View(hide,"Track Labels")
+    Let x = $View(hide,roadbed)
+    Let x = $View(hide,tracks)
+
+** Override Registry values with personal preferences
+    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed
+    Let "Coupling Speed" = 5
+    Let AllowYardMode = 1
+    *Let InYardMode = 1
+    Let "Car Gap" = 0
+    Let TTableSpeedDivisor = 7 ** Bigger means slower
+    Let ScrollDistFactorx10 = 25
+    Let DistFromSwitch =  0 ** How the switch position is displayed
+    Let HiliteSize = 18 ** How the switch position is displayed
+
+** Set QuickKeys variables
+    Let maximumTrainSpeed = 7
+    Let "Min Coupling Dist" = 1
+    Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+
+** Toolbars and windows to include when toggling View mode
+    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
+    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule
+    Let TbarAuto = 0
+
+** Optional for o2o; railroad details
+    Let OperatingRoad = ""
+    Let Territory = ""
+    Let Location = ""
+    Let Year = ""
+    Let Divisions = "" ** Enter division names seperated by a comma without a space.
+    Let ModelScale = "" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
+</scripts>
+<notes>
+<note autofit="1">
+<scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>368,44,488,597</wndrect>
+</note>
+</notes>
+</layout>
