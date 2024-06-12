@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="MUTT III" scale="3" bitmap="..\Layout Artwork\MUTT III.jpg" zoom="6.92949" xdim="13464" ydim="8398" xoffset="0" yoffset="0" bmap_size="x:13464,y:8398" def_cars="DropKick" descr="">
+<layout name="MUTT III" scale="3" bitmap="..\Layout Artwork\MUTT III.jpg" zoom="6.93663" xdim="13464" ydim="8398" xoffset="0" yoffset="0" bmap_size="x:13464,y:8398" def_cars="DropKick" descr="">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="1153,1411"></jxn>
@@ -24,7 +24,7 @@
 <jxn t="3" id="20" pt="982,3721"></jxn>
 <jxn t="3" id="21" pt="2998,1264"></jxn>
 <jxn t="3" id="22" pt="3384,1268"></jxn>
-<jxn t="3" id="23" pt="4371,1437" swp="1"></jxn>
+<jxn t="3" id="23" pt="4371,1437"></jxn>
 <jxn t="3" id="24" pt="4789,1471"></jxn>
 <jxn t="3" id="25" pt="5569,1404"></jxn>
 <jxn t="3" id="26" pt="5615,1590"></jxn>
@@ -229,7 +229,7 @@
 </trn>
 <trn t="6" id="11" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="7" rect="4753,1365,5299,1721" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 857" loadname="produce" dest="SY" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="26" dists="210"></car>
+<car t="5" id="7" rect="4753,1365,5299,1721" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 857" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="26" dists="210"></car>
 <car t="5" id="52" rect="5117,1427,5769,1735" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="UTLX 2400" loaded="1" loadname="Fuel Oil" dest="SY" collname="o2o_Freight" cartype="Union Tank" prop_str="rfid=qthpfd32r9aa" trk="24" dists="210" gs="1"></car>
 <car t="5" id="15" rect="5593,1393,6323,1733" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 2123" loaded="1" loadname="Break Bulk" dest="SY" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=cj5wo60vndqd" trk="25" dists="344" gs="1"></car>
 <car t="5" id="18" rect="6143,1349,6873,1689" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="SP 2246" loaded="1" loadname="Break Bulk" dest="SY" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=fh4gfg2euz25" trk="25" dists="896" gs="1"></car>
@@ -318,7 +318,7 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1385,b:616" zoom="0.144311" ctr="x:6735,y:4192" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:52,t:52,r:1385,b:616" zoom="0.144162" ctr="x:6735,y:4196" vtype="596" fit="1"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="4195"><![CDATA[* Master script on layout MUTT
 
@@ -419,7 +419,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>184,17,814,570</wndrect>
+<wndrect>184,17,304,570</wndrect>
 </note>
 </notes>
 </layout>
