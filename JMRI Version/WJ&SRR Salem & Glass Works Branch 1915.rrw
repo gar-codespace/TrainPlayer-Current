@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="WJ1" scale="3" bitmap="..\Layout Artwork\WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="12.865" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_origin="x:4401,y:0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
+<layout name="WJ&amp;SRR Salem &amp; Glass Works Branch 1915" lid="WJ1" scale="3" bitmap="..\Layout Artwork\WJ&amp;SRR Salem &amp; Glass Works Branch 1915.jpg" zoom="10.292" xdim="93735" ydim="50036" xoffset="0" yoffset="0" bmap_origin="x:4401,y:0" bmap_size="x:84933,y:50036" def_cars="DropKick" descr="Full Size">
 <tracks>
 <jxns>
 <jxn t="3" id="2" pt="89304,2034"></jxn>
@@ -87,7 +87,7 @@
 <jxn t="3" id="184" pt="73109,21548"></jxn>
 <jxn t="3" id="189" pt="73006,21636" swp="1"></jxn>
 <jxn t="3" id="194" pt="72724,22373"></jxn>
-<jxn t="3" id="199" pt="71284,25498" swp="1"></jxn>
+<jxn t="3" id="199" pt="71284,25498"></jxn>
 <jxn t="3" id="201" pt="68738,33821"></jxn>
 <jxn t="3" id="202" pt="70710,28894"></jxn>
 <jxn t="3" id="204" pt="70837,28559"></jxn>
@@ -1711,9 +1711,9 @@
 <roadstyles>
 <roadstyle bktype="3" fill="R:200,G:200,B:200" bmap="hq_background\gray gravel.bmp" id="1" name="Default" rwid="240" showt="0" tlen="112" twid="10" tspc="24" tcolor="R:102,G:51,B:0" trkcol="R:192,G:110,B:0" trkwid="1" railcol="R:80,G:80,B:80" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1314,b:637" zoom="0.0777305" ctr="x:71054,y:29013" vtype="724"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:78,t:78,r:1738,b:642" zoom="0.0971629" ctr="x:66913,y:36501" vtype="724"></winview>
 <scripts>
-<script id="20" flags="6" cmdix="4104" wndrect="59,261,833,965"><![CDATA[** Master Script - WJ&SRR Salem & Glass Works Branch 1915
+<script id="20" flags="6" cmdix="4195" wndrect="59,261,833,965"><![CDATA[** Master Script - WJ&SRR Salem & Glass Works Branch 1915
 
 ** Assign a note to a subroutine
     Let NoteForRandomRoads = 21
