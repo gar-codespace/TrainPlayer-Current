@@ -10,7 +10,7 @@
 <jxn t="3" id="7" pt="3066,269" swp="1"></jxn>
 <jxn t="3" id="8" pt="4723,270"></jxn>
 <jxn t="3" id="9" pt="631,270"></jxn>
-<jxn t="3" id="10" pt="4735,671"></jxn>
+<jxn t="3" id="10" pt="4735,671" swp="1"></jxn>
 <jxn t="3" id="11" pt="5836,949"></jxn>
 <jxn t="3" id="12" pt="4337,671"></jxn>
 <jxn t="3" id="13" pt="4104,671"></jxn>
@@ -140,11 +140,11 @@
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
 </advops>
 <roadstyles>
-<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="1" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="1" showtr="0"></roadstyle>
+<roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.281275" ctr="x:3104,y:598" vtype="1628" fit="1"></winview>
+<winview length="44" flags="0" showcmd="1" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1793,b:841" zoom="0.281275" ctr="x:3104,y:598" vtype="596" fit="1"></winview>
 <scripts>
-<script id="1" flags="6" cmdix="4192"><![CDATA[* Master script on layout TimeSaver
+<script id="1" flags="6" cmdix="4195"><![CDATA[* Master script on layout TimeSaver
 
 ** Assign a note to a subroutine
     Let NoteForRandomRoads = 0
@@ -199,6 +199,7 @@ GoTo StartingPoint]]></script>
     Let maximumTrainSpeed = 7
     Let "Min Coupling Dist" = 1
     Let "Uncouple Gap" = 20 ** For DropKick, make bigger if dropped cars re-couple
+    Let "TagNonRevenue" = 0
 
 ** Toolbars and windows to include when toggling View mode
     Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule
