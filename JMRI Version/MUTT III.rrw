@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="MUTT III" scale="3" bitmap="..\Layout Artwork\MUTT III.jpg" zoom="6.40228" xdim="13464" ydim="8398" xoffset="0" yoffset="0" bmap_size="x:13464,y:8398" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;&#013;&#010;** Make adjustments to an AO enabled layout if necessary&#013;&#010;    Call aoAdjustments&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;Metropolitian Harbor Railroad&quot;&#013;&#010;    Let Territory = &quot;Metropolitian Union Transfer Terminal&quot;&#013;&#010;    Let Location = &quot;West Pier District&quot;&#013;&#010;    Let Year = &quot;1915&quot;&#013;&#010;    Let Divisions = &#013;&#010;    Let ModelScale = &quot;HO&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G">
+<layout name="MUTT III" scale="3" bitmap="..\Layout Artwork\MUTT III.jpg" zoom="6.40838" xdim="13464" ydim="8398" xoffset="0" yoffset="0" bmap_size="x:13464,y:8398" def_cars="DropKick" descr="** Personalized Settings&#013;&#010;&#013;&#010;** Make adjustments to an AO enabled layout if necessary&#013;&#010;    Call aoAdjustments&#013;&#010;&#013;&#010;** Override Registry values with personal preferences&#013;&#010;    Let AutoOpenMode = 1 ** Preferences/Switches/Auto-throw when crossed&#013;&#010;    Let &quot;Coupling Speed&quot; = 5&#013;&#010;    Let AllowYardMode = 1&#013;&#010;    *Let InYardMode = 1&#013;&#010;    Let &quot;Car Gap&quot; = 0&#013;&#010;    Let TTableSpeedDivisor = 7 ** Bigger means slower&#013;&#010;    Let ScrollDistFactorx10 = 25&#013;&#010;    Let DistFromSwitch =  0 ** How the switch position is displayed&#013;&#010;    Let HiliteSize = 18 ** How the switch position is displayed&#013;&#010;&#013;&#010;** Set QuickKeys variables&#013;&#010;    Let maximumTrainSpeed = 7&#013;&#010;    Let &quot;Min Coupling Dist&quot; = 1&#013;&#010;    Let &quot;Uncouple Gap&quot; = 20 ** For DropKick, make bigger if dropped cars re-couple&#013;&#010;&#013;&#010;** Toolbars and windows to include when toggling View mode&#013;&#010;    Let ViewList7 = Main Tools,Track Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let ViewList8 = Main Tools,View Options,Build Tools,Script Tools,Ops Tools,Schedule&#013;&#010;    Let TbarAuto = 0&#013;&#010;&#013;&#010;** Optional for o2o; railroad details&#013;&#010;    Let OperatingRoad = &quot;Metropolitian Harbor Railroad&quot;&#013;&#010;    Let Territory = &quot;Metropolitian Union Transfer Terminal&quot;&#013;&#010;    Let Location = &quot;West Pier District&quot;&#013;&#010;    Let Year = &quot;1915&quot;&#013;&#010;    Let Divisions = &#013;&#010;    Let ModelScale = &quot;HO&quot; ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G">
 <tracks>
 <jxns>
 <jxn t="3" id="1" pt="914,1435"></jxn>
@@ -19,7 +19,7 @@
 <jxn t="3" id="15" pt="947,5798"></jxn>
 <jxn t="3" id="21" pt="3191,1250"></jxn>
 <jxn t="3" id="22" pt="3564,1256"></jxn>
-<jxn t="3" id="23" pt="4572,1421" swp="1"></jxn>
+<jxn t="3" id="23" pt="4572,1421"></jxn>
 <jxn t="3" id="24" pt="4941,1450"></jxn>
 <jxn t="3" id="25" pt="5792,1388"></jxn>
 <jxn t="3" id="26" pt="5827,1571"></jxn>
@@ -233,20 +233,20 @@
 </trn>
 <trn t="6" id="20" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="7" rect="5204,1395,5740,1719" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 857" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="24" dists="57" gs="1"></car>
-<car t="5" id="29" rect="5564,1393,6290,1719" type="3" fill="128,128,0" len="552" wid="128" label="PRR 1935" loaded="1" loadname="Merchandise" dest="SY" collname="o2o_Freight" cartype="PRR Xl Vent" trk="25" dists="101" gs="1"></car>
-<car t="5" id="3" rect="6113,1343,6897,1689" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="WJ&amp;S 8550" loaded="1" loadname="Merchandise" dest="SY" collname="o2o_Freight" cartype="PRR X23" prop_str="rfid=qa39e3m4xjto" trk="25" dists="680" gs="1"></car>
-<car t="5" id="11" rect="6717,1300,7447,1640" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 6402" loaded="1" loadname="Live Oysters" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=j2x2opzxhgqt" trk="25" dists="1259" gs="1"></car>
-<car t="5" id="19" rect="7267,1254,7997,1596" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 9660" loaded="1" loadname="Live Oysters" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=d2mmc8dz8c7b" trk="25" dists="1811" gs="1"></car>
-<car t="5" id="53" rect="7817,1210,8547,1552" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="PL 8221" loaded="1" loadname="Coffee" dest="SY" collname="o2o_Freight" cartype="PRR Xl Vent" prop_str="rfid=d95hdcpwk7u0" trk="25" dists="2363" gs="1"></car>
-<car t="5" id="27" rect="8368,1148,9276,1512" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5927" loaded="1" loadname="Express" dest="SY" collname="o2o_Passenger" cartype="Bd" trk="34" dists="423" gs="1"></car>
-<car t="5" id="14" rect="9095,1109,9825,1449" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 1408" loaded="1" loadname="Empty" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=tkrqk3f5pxdj" trk="34" dists="1064" gs="1"></car>
-<car t="5" id="2" rect="9646,1065,10376,1405" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 3785" loaded="1" loadname="Foodstuffs" dest="SY" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=y9tr427b56vf" trk="28" dists="179" gs="1"></car>
-<car t="5" id="17" rect="10196,1022,10926,1362" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="P&amp;R 8062" loaded="1" loadname="Break Bulk" dest="SY" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=qsc31hn6jbdg" trk="28" dists="731" gs="1"></car>
-<car t="5" id="22" rect="10746,981,11424,1323" type="3" fill="128,128,0" len="500" wid="135" label="CS 7255" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="1257" gs="1"></car>
-<car t="5" id="45" rect="11244,943,11922,1285" flags="4096" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="ACL 2481" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" prop_str="rfid=f54umrgz7l2i" trk="28" dists="1757" gs="1"></car>
-<car t="5" id="25" rect="11743,904,12421,1246" flags="4096" type="3" fill="128,128,0" len="500" wid="135" label="ER 1263" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="2257" gs="1"></car>
-<car t="5" id="28" rect="12242,881,12764,1203" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="PRR 818" loaded="1" loadname="E" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="28" dists="2679" gs="1"></car>
+<car t="5" id="7" rect="4901,1344,5447,1702" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 857" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="26" dists="244"></car>
+<car t="5" id="29" rect="5265,1409,5989,1717" type="3" fill="128,128,0" len="552" wid="128" label="PRR 1935" loaded="1" loadname="Merchandise" dest="SY" collname="o2o_Freight" cartype="PRR Xl Vent" trk="24" dists="212" gs="1"></car>
+<car t="5" id="3" rect="5813,1367,6597,1713" type="8" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="WJ&amp;S 8550" loaded="1" loadname="Merchandise" dest="SY" collname="o2o_Freight" cartype="PRR X23" prop_str="rfid=qa39e3m4xjto" trk="25" dists="379" gs="1"></car>
+<car t="5" id="11" rect="6417,1323,7147,1665" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 6402" loaded="1" loadname="Live Oysters" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=j2x2opzxhgqt" trk="25" dists="958" gs="1"></car>
+<car t="5" id="19" rect="6967,1280,7697,1620" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 9660" loaded="1" loadname="Live Oysters" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=d2mmc8dz8c7b" trk="25" dists="1510" gs="1"></car>
+<car t="5" id="53" rect="7517,1234,8247,1576" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="PL 8221" loaded="1" loadname="Coffee" dest="SY" collname="o2o_Freight" cartype="PRR Xl Vent" prop_str="rfid=d95hdcpwk7u0" trk="25" dists="2062" gs="1"></car>
+<car t="5" id="27" rect="8067,1172,8975,1536" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5927" loaded="1" loadname="Express" dest="SY" collname="o2o_Passenger" cartype="Bd" trk="34" dists="122" gs="1"></car>
+<car t="5" id="14" rect="8795,1133,9525,1473" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 1408" loaded="1" loadname="Empty" dest="SY" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=tkrqk3f5pxdj" trk="34" dists="763" gs="1"></car>
+<car t="5" id="2" rect="9346,1089,10076,1429" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 3785" loaded="1" loadname="Foodstuffs" dest="SY" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=y9tr427b56vf" trk="34" dists="1315" gs="1"></car>
+<car t="5" id="17" rect="9895,1046,10625,1384" flags="4096" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="P&amp;R 8062" loaded="1" loadname="Break Bulk" dest="SY" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=qsc31hn6jbdg" trk="28" dists="430" gs="1"></car>
+<car t="5" id="22" rect="10446,1004,11124,1346" type="3" fill="128,128,0" len="500" wid="135" label="CS 7255" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="956" gs="1"></car>
+<car t="5" id="45" rect="10944,966,11622,1308" flags="4096" type="7" outl="134,134,134" fill="192,192,192" len="500" wid="135" label="ACL 2481" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" prop_str="rfid=f54umrgz7l2i" trk="28" dists="1456" gs="1"></car>
+<car t="5" id="25" rect="11443,927,12121,1269" flags="4096" type="3" fill="128,128,0" len="500" wid="135" label="ER 1263" loaded="1" loadname="Gravel" dest="SY" collname="o2o_Freight" cartype="PRR Gi" trk="28" dists="1956" gs="1"></car>
+<car t="5" id="28" rect="11942,905,12464,1227" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="345" wid="126" label="PRR 818" loaded="1" loadname="E" dest="~" collname="o2o_Freight" cartype="PRR Nd" trk="28" dists="2378" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -308,7 +308,7 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="2" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1686,b:590" zoom="0.156194" ctr="x:6735,y:4193" vtype="596" fit="1"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1686,b:590" zoom="0.156046" ctr="x:6735,y:4196" vtype="596" fit="1"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="4345"><![CDATA[* Master script on layout MUTT
 
@@ -410,7 +410,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>203,7,788,560</wndrect>
+<wndrect>203,7,323,560</wndrect>
 </note>
 </notes>
 </layout>
