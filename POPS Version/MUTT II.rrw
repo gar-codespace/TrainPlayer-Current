@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<layout name="MUTT II" scale="3" bitmap="..\Layout Artwork\MUTT II.jpg" zoom="7.66928" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="DropKick" descr="South Pier District">
+<layout name="MUTT II" lid="MU1" scale="3" bitmap="..\Layout Artwork\MUTT II.jpg" zoom="18.0171" xdim="17891" ydim="14483" xoffset="0" yoffset="0" bmap_size="x:17891,y:14483" def_cars="DropKick" descr="South Pier District">
 <tracks>
 <jxns>
 <jxn t="3" id="100" pt="1663,412"></jxn>
@@ -301,7 +301,7 @@ Call TrackScanner @sName @sDirection $X_Train]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1686,b:590" zoom="0.13039" ctr="x:8539,y:4649" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1686,b:590" zoom="0.0555028" ctr="x:8955,y:7223" vtype="596" fit="1"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="4345" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
@@ -403,7 +403,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>184,17,499,570</wndrect>
+<wndrect>184,17,304,570</wndrect>
 </note>
 </notes>
 </layout>
