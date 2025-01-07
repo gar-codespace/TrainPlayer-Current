@@ -164,7 +164,7 @@
 <str t="1" id="63" rect="11398,2143,11644,2391" js="67" jn="7"></str>
 </trks>
 </tracks>
-<trains selno="9" trk="0" dists="0">
+<trains selno="7" trk="0" dists="0">
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="19" rect="12377,1332,12763,2242" flags="266240" type="3" fill="128,128,0" len="731" wid="138" label="PRR 6544" loaded="1" loadname="Express" dest="X" collname="o2o_Passenger" cartype="Bd" trk="62" dists="419" gs="1"></car>
@@ -206,13 +206,13 @@
 <car t="5" id="13" rect="3657,866,4439,1192" flags="266240" type="10" outl="102,51,0" fill="204,102,0" len="607" wid="128" label="CS 0355" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Fm" prop_str="rfid=j4qqvvh3bxlv" trk="42" dists="303" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="13" dspeed="0" horntype="0">
+<trn t="6" id="13" dspeed="0" horntype="0" selcarno="3">
 <cars>
-<car t="5" id="47" rect="8230,1083,8956,1407" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 5513" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=zo0vcaw9mka6" trk="42" dists="4853"></car>
-<car t="5" id="4" rect="7679,1057,8405,1381" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 2298" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=vlzyms1x6oyd" trk="42" dists="4301"></car>
-<car t="5" id="43" rect="7128,1032,7854,1354" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 7302" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=cj5wo60vndqd" trk="42" dists="3749"></car>
-<car t="5" id="46" rect="6576,1004,7302,1328" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 7582" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=fh4gfg2euz25" trk="42" dists="3197"></car>
-<car t="5" id="22" rect="6025,978,6751,1302" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="PL 8900" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl Vent" prop_str="rfid=d95hdcpwk7u0" trk="42" dists="2645"></car>
+<car t="5" id="47" rect="8222,1084,8948,1406" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PL 5513" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=zo0vcaw9mka6" trk="42" dists="4845"></car>
+<car t="5" id="4" rect="7671,1056,8397,1380" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="DL&amp;W 2298" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=vlzyms1x6oyd" trk="42" dists="4293"></car>
+<car t="5" id="43" rect="7120,1030,7846,1354" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 7302" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=cj5wo60vndqd" trk="42" dists="3741"></car>
+<car t="5" id="46" rect="6568,1004,7294,1328" flags="262144" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="NYC 7582" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl" prop_str="rfid=fh4gfg2euz25" trk="42" dists="3189"></car>
+<car t="5" id="22" rect="6017,978,6743,1302" flags="266240" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="PL 8900" loaded="1" loadname="Empty" dest="P" collname="o2o_Freight" cartype="PRR Xl Vent" prop_str="rfid=d95hdcpwk7u0" trk="42" dists="2637"></car>
 </cars>
 </trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
@@ -277,7 +277,7 @@
 <ind id="32" industry="W" aar="GPD" s__r="R" load="tank"></ind>
 <ind id="33" industry="O" aar="XP4" s__r="S" load="Can Oysters"></ind>
 <ind id="1" industry="S" aar="XP3" s__r="S" load="Coffee Sacks"></ind>
-<ind id="14" industry="F" aar="TPO" s__r="S" load="Heating Oil"></ind>
+<ind id="14" industry="H" aar="TPO" s__r="S" load="Heating Oil"></ind>
 <ind id="15" industry="X" aar="Bd" s__r="R" load="Express"></ind>
 <ind id="28" industry="X" aar="Bd" s__r="S" load="Express"></ind>
 </industries>
@@ -305,7 +305,7 @@ Call TrackScanner @sName @sDirection $X_Train]]></action>
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:70,B:255" trkwid="1" railcol="R:128,G:128,B:128" railsep="65" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:260,t:260,r:2108,b:1083" zoom="0.174887" ctr="x:8637,y:2831" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:260,t:260,r:2108,b:1083" zoom="0.174887" ctr="x:8322,y:2883" vtype="596"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="4349" wndrect="0,23,450,277"><![CDATA[* Master script on layout MUTT
 
@@ -497,7 +497,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>184,17,844,570</wndrect>
+<wndrect>184,17,304,570</wndrect>
 </note>
 </notes>
 </layout>
