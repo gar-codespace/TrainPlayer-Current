@@ -16,7 +16,7 @@
 <jxn t="3" id="14" pt="7016,1174"></jxn>
 <jxn t="3" id="15" pt="91,511"></jxn>
 <jxn t="3" id="17" pt="2396,510"></jxn>
-<jxn t="3" id="18" pt="3205,310"></jxn>
+<jxn t="3" id="18" pt="3205,310" swp="1"></jxn>
 <jxn t="3" id="19" pt="411,1090"></jxn>
 <jxn t="3" id="20" pt="1733,756"></jxn>
 <jxn t="3" id="21" pt="1825,738"></jxn>
@@ -24,8 +24,8 @@
 <jxn t="3" id="23" pt="2009,714"></jxn>
 <jxn t="3" id="24" pt="2143,708"></jxn>
 <jxn t="3" id="26" pt="4165,708"></jxn>
-<jxn t="3" id="27" pt="1735,510"></jxn>
-<jxn t="3" id="28" pt="2527,708" swp="1"></jxn>
+<jxn t="3" id="27" pt="1735,510" swp="1"></jxn>
+<jxn t="3" id="28" pt="2527,708"></jxn>
 <jxn t="3" id="29" pt="2123,309"></jxn>
 <jxn t="3" id="13" pt="4590,563"></jxn>
 <jxn t="3" id="11" pt="1458,509"></jxn>
@@ -39,18 +39,18 @@
 <jxn t="3" id="35" pt="2810,310"></jxn>
 </jxns>
 <trks>
-<str t="1" id="1" rect="80,308,2123,310" tag="A" js="1" jn="29"></str>
-<str t="1" id="2" rect="4734,311,4883,314" tag="D" js="2" jn="3"></str>
-<str t="1" id="3" rect="4883,314,5003,325" tag="D" js="3" jn="4"></str>
-<str t="1" id="4" rect="5003,325,5135,349" tag="D" js="4" jn="5"></str>
-<str t="1" id="5" rect="5135,349,5284,383" tag="D" js="5" jn="6"></str>
-<str t="1" id="6" rect="5284,383,5515,446" tag="D" js="6" jn="25"></str>
+<str t="1" id="1" rect="80,308,2123,310" tag="Red" js="1" jn="29"></str>
+<str t="1" id="2" rect="4734,311,4883,314" tag="Pur" js="2" jn="3"></str>
+<str t="1" id="3" rect="4883,314,5003,325" tag="Pur" js="3" jn="4"></str>
+<str t="1" id="4" rect="5003,325,5135,349" tag="Pur" js="4" jn="5"></str>
+<str t="1" id="5" rect="5135,349,5284,383" tag="Pur" js="5" jn="6"></str>
+<str t="1" id="6" rect="5284,383,5515,446" tag="Pur" js="6" jn="25"></str>
 <str t="1" id="7" rect="4172,510,4322,516" js="8" jn="9"></str>
 <str t="1" id="8" rect="4322,516,4467,533" js="9" jn="10"></str>
 <str t="1" id="9" rect="4467,533,4590,563" js="10" jn="13"></str>
 <str t="1" id="12" rect="5197,711,5467,777" js="12" jn="16"></str>
-<str t="1" id="13" rect="91,509,1458,511" tag="B" js="15" jn="11"></str>
-<str t="1" id="15" rect="3205,309,4734,312" tag="D" js="18" jn="2"></str>
+<str t="1" id="13" rect="91,509,1458,511" tag="Blu" js="15" jn="11"></str>
+<str t="1" id="15" rect="3205,309,4734,312" tag="Pur" js="18" jn="2"></str>
 <str t="1" id="17" rect="411,756,1733,1090" js="19" jn="20"></str>
 <str t="1" id="18" rect="1733,738,1825,756" js="20" jn="21"></str>
 <str t="1" id="19" rect="1825,722,1922,738" js="21" jn="22"></str>
@@ -60,10 +60,10 @@
 <str t="1" id="10" rect="4165,708,5197,711" js="26" jn="12"></str>
 <str t="1" id="11" rect="4590,563,5197,711" js="12" jn="13"></str>
 <str t="1" id="23" rect="1458,508,1735,511" js="11" jn="27"></str>
-<str t="1" id="28" rect="5467,777,7016,1174" tag="G" js="16" jn="14"></str>
+<str t="1" id="28" rect="5467,777,7016,1174" tag="Yel" js="16" jn="14"></str>
 <str t="1" id="29" rect="5515,446,7099,845" js="25" jn="7"></str>
-<str t="1" id="30" rect="2786,510,4172,513" tag="E" js="30" jn="8"></str>
-<str t="1" id="31" rect="2812,708,4165,712" tag="F" js="31" jn="26"></str>
+<str t="1" id="30" rect="2786,510,4172,513" tag="Brn" js="30" jn="8"></str>
+<str t="1" id="31" rect="2812,708,4165,712" tag="Grn" js="31" jn="26"></str>
 <str t="1" id="33" rect="2121,509,2396,511" js="33" jn="17"></str>
 <str t="1" id="22" rect="1735,510,2128,611" js="32" jn="27"></str>
 <str t="1" id="25" rect="1735,509,2121,511" js="27" jn="33"></str>
@@ -77,71 +77,79 @@
 </trks>
 </tracks>
 <trains selno="0" trk="0" dists="0">
-<trn t="6" id="7" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="8" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="4" rect="850,717,1400,1101" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 260" dest="~" collname="o2o Locomotives" cartype="A4" trk="17" dists="737" gs="1"></car>
+<car t="5" id="7" rect="922,720,1412,1078" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="300" wid="120" label="PRR 3" dest="~" collname="o2o Locomotives" cartype="Trackmobile" trk="17" dists="780"></car>
 </cars>
 </trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
+<trn t="6" id="5" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="7" rect="6173,490,6909,918" flags="4194304" type="3" fill="128,128,0" len="552" wid="128" label="WJ&amp;S 5544" loadname="Load" dest="~" collname="o2o_Freight" cartype="PRR Xg" trk="29" dists="1058"></car>
-<car t="5" id="8" rect="5637,355,6373,783" flags="4456448" type="3" fill="128,128,0" len="552" wid="128" label="AT&amp;SF 0077" loadname="Load" dest="~" collname="o2o_Freight" cartype="PRR Xg" trk="29" dists="506"></car>
-</cars>
-</trn>
-<trn t="6" id="1" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="1" rect="3439,361,4161,659" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="LV 5776" loaded="1" loadname="Load" dest="E" collname="o2o_Freight" cartype="PRR Xg" trk="30" dists="1014" gs="1"></car>
-</cars>
-</trn>
-<trn t="6" id="4" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="2" rect="1474,160,2196,458" flags="266240" type="3" fill="128,128,0" len="552" wid="128" label="CS 2851" loaded="1" loadname="Load" dest="A" collname="o2o_Freight" cartype="PRR Xg" trk="1" dists="1755"></car>
-</cars>
-</trn>
-<trn t="6" id="5" dspeed="0" rev="1" horntype="0">
-<cars>
-<car t="5" id="3" rect="3369,161,4091,459" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="SP 4427" loaded="1" loadname="Load" dest="D" collname="o2o_Freight" cartype="PRR Xg" trk="15" dists="525" gs="1"></car>
+<car t="5" id="4" rect="310,853,860,1237" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 260" dest="~" collname="o2o Locomotives" cartype="A4" trk="17" dists="180"></car>
 </cars>
 </trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="6" rect="817,360,1539,658" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="B&amp;A 4582" loaded="1" loadname="Load" dest="B" collname="o2o_Freight" cartype="PRR Xg" trk="13" dists="1087"></car>
-<car t="5" id="5" rect="265,361,987,659" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="NYC 0883" loaded="1" loadname="Load" dest="B" collname="o2o_Freight" cartype="PRR Xg" trk="13" dists="535"></car>
+<car t="5" id="1" rect="6043,799,6955,1283" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5907" loadname="baggage" dest="Yel" collname="o2o_Passenger" cartype="Bdr" trk="28" dists="1065"></car>
+<car t="5" id="9" rect="5463,654,6245,1098" flags="266240" type="3" fill="128,128,0" len="600" wid="130" label="URTC 40028" loaded="1" loadname="Load" dest="Yel" collname="o2o_Freight" cartype="URTC" trk="28" dists="400"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="3" rect="3955,162,4677,460" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="P&amp;R 16492" loaded="1" loadname="Load" dest="Pur" collname="o2o_Freight" cartype="PRR Xg" trk="15" dists="1111"></car>
+<car t="5" id="5" rect="3403,161,4125,459" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="NYP&amp;N 900" loaded="1" loadname="Load" dest="Pur" collname="o2o_Freight" cartype="PRR Xg" trk="15" dists="559"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="2" rect="719,360,1495,658" flags="262144" type="3" fill="128,128,0" len="607" wid="128" label="PFE 559" loaded="1" loadname="Load" dest="Blu" collname="o2o_Freight" cartype="PFE 40" trk="13" dists="1016"></car>
+</cars>
+</trn>
+<trn t="6" id="6" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="10" rect="1539,159,2209,459" type="3" fill="128,128,0" len="500" wid="130" label="HJH 424" loadname="Empty" dest="Red" collname="o2o_Freight" cartype="Heinz 57" trk="1" dists="1794"></car>
 </cars>
 </trn>
 </trains>
 <clock smult="6"></clock>
 <advops showoconopen="0" zoomonopen="0">
 <industries>
-<ind id="1" industry="D" s__r="R" load="Load"></ind>
-<ind id="2" industry="A" s__r="S" load="Load"></ind>
-<ind id="3" industry="A" s__r="R" load="Load"></ind>
-<ind id="4" industry="B" s__r="S" load="Load"></ind>
-<ind id="5" industry="B" s__r="R" load="Load"></ind>
-<ind id="8" industry="D" s__r="S" load="Load"></ind>
-<ind id="9" industry="G" s__r="R" load="Load"></ind>
-<ind id="10" industry="E" s__r="S" load="Load"></ind>
-<ind id="11" industry="E" s__r="R" load="Load"></ind>
-<ind id="12" industry="F" s__r="S" load="Load"></ind>
-<ind id="13" industry="F" s__r="R" load="Load"></ind>
-<ind id="14" industry="G" s__r="S" load="Load"></ind>
+<ind id="1" industry="Red" s__r="R" load="Load"></ind>
+<ind id="2" industry="Red" s__r="S" load="Load"></ind>
+<ind id="3" industry="Blu" aar="Bdr" s__r="R" load="Load"></ind>
+<ind id="4" industry="Blu" aar="RHx" s__r="S" load="Load"></ind>
+<ind id="5" industry="Pur" s__r="R" load="Load"></ind>
+<ind id="8" industry="Pur" s__r="S" load="Load"></ind>
+<ind id="9" industry="Brn" s__r="R" load="Load"></ind>
+<ind id="10" industry="Brn" s__r="S" load="Load"></ind>
+<ind id="11" industry="Grn" s__r="R" load="Load"></ind>
+<ind id="12" industry="Grn" s__r="S" load="Load"></ind>
+<ind id="13" industry="Yel" s__r="R" load="Load"></ind>
+<ind id="14" industry="Yel" s__r="S" load="Load"></ind>
+<ind id="6" industry="Blu" aar="Bdr" s__r="S" load="Load"></ind>
+<ind id="7" industry="Blu" aar="RHx" s__r="R" load="Load"></ind>
+<ind id="15" industry="Blu" aar="RPF" s__r="S" load="Load"></ind>
+<ind id="16" industry="Blu" aar="RUx" s__r="S" load="Load"></ind>
+<ind id="17" industry="Blu" aar="RUx" s__r="R" load="Load"></ind>
+<ind id="18" industry="Blu" aar="RPF" s__r="R" load="Load"></ind>
+<ind id="19" industry="Blu" aar="XP3" s__r="S" load="Load"></ind>
+<ind id="20" industry="Blu" aar="XP3" s__r="R" load="Load"></ind>
 </industries>
 <locations>
-<loc id="1" locale="TS;A" track="A" class="industry" vs_add="2"></loc>
-<loc id="2" locale="TS;B" track="B" class="industry" vs_add="1"></loc>
-<loc id="4" locale="TS;D" track="D" class="industry" vs_add="2"></loc>
-<loc id="5" locale="TS;E" track="E" class="industry"></loc>
-<loc id="6" locale="TS;F" track="F" class="industry" vs_add="1"></loc>
-<loc id="7" locale="TS;G" track="G" class="industry" vs_add="1"></loc>
+<loc id="1" locale="TS;Red" track="Red" class="industry" vs_add="2"></loc>
+<loc id="2" locale="TS;Blue" track="Blu" class="industry" vs_add="1"></loc>
+<loc id="4" locale="TS;Purple" track="Pur" class="industry" vs_add="2"></loc>
+<loc id="5" locale="TS;Brown" track="Brn" class="industry"></loc>
+<loc id="6" locale="TS;Green" track="Grn" class="industry" vs_add="1"></loc>
+<loc id="7" locale="TS;Yellow" track="Yel" class="industry" vs_add="1"></loc>
 </locations>
 <trainseqs active_row="1"></trainseqs>
 <swrows>
-<sw id="1" car_id="2" sr_id="0" car="CS 2851" pullfrom="A" dir="&gt;&gt;" spotat="A" load="Load"></sw>
-<sw id="2" car_id="5" sr_id="0" car="NYC 0883" pullfrom="B" dir="&gt;&gt;" spotat="B" load="Load"></sw>
-<sw id="3" car_id="3" sr_id="0" car="SP 4427" pullfrom="D" dir="&gt;&gt;" spotat="D" load="Load"></sw>
-<sw id="4" car_id="6" sr_id="0" car="B&amp;A 4582" pullfrom="B" dir="&gt;&gt;" spotat="B" load="Load"></sw>
-<sw id="5" car_id="7" sr_id="0" car="WJ&amp;S 5544" pullfrom="T29" dir="&gt;&gt;" spotat="~"></sw>
-<sw id="6" car_id="8" sr_id="0" car="AT&amp;SF 0077" pullfrom="T29" dir="&gt;&gt;" spotat="~"></sw>
+<sw id="1" car_id="2" sr_id="0" car="PFE 559" pullfrom="Blu" dir="&gt;&gt;" spotat="Blu" load="Load"></sw>
+<sw id="2" car_id="5" sr_id="0" car="NYP&amp;N 900" pullfrom="Pur" dir="&gt;&gt;" spotat="Pur" load="Load"></sw>
+<sw id="3" car_id="3" sr_id="0" car="P&amp;R 16492" pullfrom="Pur" dir="&gt;&gt;" spotat="Pur" load="Load"></sw>
+<sw id="4" car_id="6" sr_id="0" dir="&gt;&gt;"></sw>
+<sw id="5" car_id="7" sr_id="0" car="PRR 3" pullfrom="T17" dir="&gt;&gt;" spotat="~"></sw>
+<sw id="6" car_id="8" sr_id="0" dir="&gt;&gt;"></sw>
 <sw id="7" car_id="4" sr_id="0" car="PRR 260" pullfrom="T17" dir="&gt;&gt;" spotat="~"></sw>
 </swrows>
 <ao_settings ncarstopull="10" bridgemin="2" bridgemax="6" switchlistno="0" carsbridge="2" tspotsvacant="" cpickuplist="" crouted=""></ao_settings>
@@ -149,7 +157,7 @@
 <roadstyles>
 <roadstyle bktype="1" fill="R:0,G:0,B:0" id="1" name="Default" rwid="20" showt="0" tlen="110" twid="10" tspc="20" tcolor="R:102,G:51,B:0" trkcol="R:0,G:0,B:0" trkwid="1" railcol="R:0,G:0,B:0" railsep="0" railwid="2" showrb="0" showra="0" showtr="0"></roadstyle>
 </roadstyles>
-<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1874,b:849" zoom="0.305407" ctr="x:3653,y:750" vtype="596"></winview>
+<winview length="44" flags="2" showcmd="3" minpos="x:-1,y:-1" maxpos="x:-8,y:-31" normpos="l:26,t:26,r:1874,b:849" zoom="0.305407" ctr="x:3653,y:751" vtype="596"></winview>
 <scripts>
 <script id="1" flags="6" cmdix="4372"><![CDATA[* Master script on layout TimeSaver
 
@@ -243,7 +251,7 @@ MW_LENGTH 3]]></script>
 ** Optional for o2o; railroad details
     Let OperatingRoad = "Metropolitan Harbor Railroad"
     Let Territory = "Metropolitan Union Transfer Terminal"
-    Let Location = "West Pier District"
+    Let Location = "Time Saver"
     Let Year = "1915"
     Let Divisions = 
     Let ModelScale = "HO" ** Choose from: Z, N, HOn3, OO, HO, HOn3, Sn3, S, On3, O, G]]></script>
