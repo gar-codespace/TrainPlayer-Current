@@ -16,7 +16,7 @@
 <jxn t="3" id="14" pt="7016,1174"></jxn>
 <jxn t="3" id="15" pt="91,511"></jxn>
 <jxn t="3" id="17" pt="2396,510"></jxn>
-<jxn t="3" id="18" pt="3205,310" swp="1"></jxn>
+<jxn t="3" id="18" pt="3205,310"></jxn>
 <jxn t="3" id="19" pt="411,1090"></jxn>
 <jxn t="3" id="20" pt="1733,756"></jxn>
 <jxn t="3" id="21" pt="1825,738"></jxn>
@@ -24,7 +24,7 @@
 <jxn t="3" id="23" pt="2009,714"></jxn>
 <jxn t="3" id="24" pt="2143,708"></jxn>
 <jxn t="3" id="26" pt="4165,708"></jxn>
-<jxn t="3" id="27" pt="1735,510" swp="1"></jxn>
+<jxn t="3" id="27" pt="1735,510"></jxn>
 <jxn t="3" id="28" pt="2527,708"></jxn>
 <jxn t="3" id="29" pt="2123,309"></jxn>
 <jxn t="3" id="13" pt="4590,563"></jxn>
@@ -76,7 +76,7 @@
 <str t="1" id="34" rect="2810,309,3205,311" js="18" jn="35"></str>
 </trks>
 </tracks>
-<trains selno="0" trk="0" dists="0">
+<trains selno="6" trk="0" dists="0">
 <trn t="6" id="8" dspeed="0" horntype="0">
 <cars>
 <car t="5" id="7" rect="922,720,1412,1078" flags="4194304" type="0" outl="255,255,51" fill="0,0,153" len="300" wid="120" label="PRR 3" dest="~" collname="o2o Locomotives" cartype="Trackmobile" trk="17" dists="780"></car>
@@ -87,26 +87,34 @@
 <car t="5" id="4" rect="310,853,860,1237" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 260" dest="~" collname="o2o Locomotives" cartype="A4" trk="17" dists="180"></car>
 </cars>
 </trn>
+<trn t="6" id="1" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="5" rect="1350,160,2072,458" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="NYP&amp;N 900" loaded="1" loadname="Load" dest="Red" collname="o2o_Freight" cartype="PRR Xg" trk="1" dists="1631"></car>
+</cars>
+</trn>
 <trn t="6" id="3" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="1" rect="6043,799,6955,1283" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5907" loadname="baggage" dest="Yel" collname="o2o_Passenger" cartype="Bdr" trk="28" dists="1065"></car>
-<car t="5" id="9" rect="5463,654,6245,1098" flags="266240" type="3" fill="128,128,0" len="600" wid="130" label="URTC 40028" loaded="1" loadname="Load" dest="Yel" collname="o2o_Freight" cartype="URTC" trk="28" dists="400"></car>
-</cars>
-</trn>
-<trn t="6" id="2" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="3" rect="3955,162,4677,460" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="P&amp;R 16492" loaded="1" loadname="Load" dest="Pur" collname="o2o_Freight" cartype="PRR Xg" trk="15" dists="1111"></car>
-<car t="5" id="5" rect="3403,161,4125,459" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="NYP&amp;N 900" loaded="1" loadname="Load" dest="Pur" collname="o2o_Freight" cartype="PRR Xg" trk="15" dists="559"></car>
-</cars>
-</trn>
-<trn t="6" id="4" dspeed="0" horntype="0">
-<cars>
-<car t="5" id="2" rect="719,360,1495,658" flags="262144" type="3" fill="128,128,0" len="607" wid="128" label="PFE 559" loaded="1" loadname="Load" dest="Blu" collname="o2o_Freight" cartype="PFE 40" trk="13" dists="1016"></car>
+<car t="5" id="10" rect="3462,160,4132,460" flags="266240" type="3" fill="128,128,0" len="500" wid="130" label="HJH 424" loaded="1" loadname="Load" dest="Pur" collname="o2o_Freight" cartype="Heinz 57" trk="15" dists="592"></car>
 </cars>
 </trn>
 <trn t="6" id="6" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="10" rect="1539,159,2209,459" type="3" fill="128,128,0" len="500" wid="130" label="HJH 424" loadname="Empty" dest="Red" collname="o2o_Freight" cartype="Heinz 57" trk="1" dists="1794"></car>
+<car t="5" id="2" rect="5372,632,6160,1076" flags="262144" type="3" fill="128,128,0" len="607" wid="128" label="PFE 559" loaded="1" loadname="Load" dest="Yel" collname="o2o_Freight" cartype="PFE 40" trk="28" dists="309"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="9" rect="676,359,1446,659" flags="266240" type="3" fill="128,128,0" len="600" wid="130" label="URTC 40028" loaded="1" loadname="Load" dest="Blu" collname="o2o_Freight" cartype="URTC" trk="13" dists="970"></car>
+</cars>
+</trn>
+<trn t="6" id="7" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="1" rect="3338,356,4238,666" flags="262144" type="3" fill="128,128,0" len="731" wid="138" label="PRR 5907" loaded="1" loadname="Load" dest="Brn" collname="o2o_Passenger" cartype="Bdr" trk="30" dists="1002"></car>
+</cars>
+</trn>
+<trn t="6" id="4" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="3" rect="3392,560,4114,858" flags="262144" type="3" fill="128,128,0" len="552" wid="128" label="P&amp;R 16492" loaded="1" loadname="Load" dest="Grn" collname="o2o_Freight" cartype="PRR Xg" trk="31" dists="941"></car>
 </cars>
 </trn>
 </trains>
@@ -144,9 +152,9 @@
 </locations>
 <trainseqs active_row="1"></trainseqs>
 <swrows>
-<sw id="1" car_id="2" sr_id="0" car="PFE 559" pullfrom="Blu" dir="&gt;&gt;" spotat="Blu" load="Load"></sw>
-<sw id="2" car_id="5" sr_id="0" car="NYP&amp;N 900" pullfrom="Pur" dir="&gt;&gt;" spotat="Pur" load="Load"></sw>
-<sw id="3" car_id="3" sr_id="0" car="P&amp;R 16492" pullfrom="Pur" dir="&gt;&gt;" spotat="Pur" load="Load"></sw>
+<sw id="1" car_id="2" sr_id="0" car="PFE 559" pullfrom="Yel" dir="&gt;&gt;" spotat="Yel" load="Load"></sw>
+<sw id="2" car_id="5" sr_id="0" car="NYP&amp;N 900" pullfrom="Red" dir="&gt;&gt;" spotat="Red" load="Load"></sw>
+<sw id="3" car_id="3" sr_id="0" car="P&amp;R 16492" pullfrom="Grn" dir="&gt;&gt;" spotat="Grn" load="Load"></sw>
 <sw id="4" car_id="6" sr_id="0" dir="&gt;&gt;"></sw>
 <sw id="5" car_id="7" sr_id="0" car="PRR 3" pullfrom="T17" dir="&gt;&gt;" spotat="~"></sw>
 <sw id="6" car_id="8" sr_id="0" dir="&gt;&gt;"></sw>
@@ -259,7 +267,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>200,17,500,570</wndrect>
+<wndrect>200,17,320,570</wndrect>
 </note>
 </notes>
 </layout>
