@@ -70,7 +70,7 @@
 <jxn t="3" id="6" pt="9057,1219"></jxn>
 <jxn t="3" id="78" pt="9765,1441"></jxn>
 <jxn t="3" id="54" pt="12443,617"></jxn>
-<jxn t="3" id="85" pt="8654,1166"></jxn>
+<jxn t="3" id="85" pt="8654,1166" swp="1"></jxn>
 <jxn t="3" id="86" pt="8910,1398"></jxn>
 <jxn t="3" id="48" pt="10814,1268"></jxn>
 <jxn t="3" id="3" pt="10291,1531"></jxn>
@@ -263,18 +263,22 @@
 </trn>
 <trn t="6" id="5" dspeed="0" horntype="0">
 <cars>
-<car t="5" id="62" rect="7549,966,8085,1284" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="95" dists="594"></car>
-<car t="5" id="1" rect="7101,947,7725,1263" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="95" dists="189"></car>
-<car t="5" id="48" rect="6549,889,7279,1241" flags="4096" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ACL 2474" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Fk" prop_str="rfid=aleygugj823n" trk="94" dists="179"></car>
-<car t="5" id="31" rect="6000,866,6726,1188" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 0326" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=voaabebbzkxr" trk="42" dists="2172"></car>
-<car t="5" id="56" rect="5449,839,6175,1163" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 1558" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=nnr5zupek99l" trk="42" dists="1620"></car>
-<car t="5" id="24" rect="4780,803,5624,1143" type="3" fill="128,128,0" len="670" wid="140" label="PRR 7152" loaded="1" loadname="Express" dest="CF" collname="o2o_Passenger" cartype="Bd" trk="42" dists="1009"></car>
-<car t="5" id="17" rect="4228,783,4954,1107" flags="4096" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="CNJ 7069" loaded="1" loadname="Gravel" dest="CF" collname="o2o_Freight" cartype="PRR Gr" prop_str="rfid=p2f5k5zonyte" trk="42" dists="398"></car>
+<car t="5" id="62" rect="9937,1079,10473,1397" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="48" dists="1173"></car>
+<car t="5" id="1" rect="9489,1060,10113,1376" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="48" dists="768"></car>
 </cars>
 </trn>
 <trn t="6" id="8" dspeed="0" rev="1" horntype="0">
 <cars>
 <car t="5" id="14" rect="11680,3477,12024,4137" flags="262144" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="UTLX 5968" loaded="1" loadname="Petroleum" dest="P" collname="o2o_Freight" cartype="Union Tank" prop_str="rfid=qthpfd32r9aa" trk="90" dists="293" gs="1"></car>
+</cars>
+</trn>
+<trn t="6" id="2" dspeed="0" horntype="0">
+<cars>
+<car t="5" id="48" rect="6549,889,7279,1241" flags="4096" type="10" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="ACL 2474" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Fk" prop_str="rfid=aleygugj823n" trk="94" dists="179"></car>
+<car t="5" id="31" rect="6000,866,6726,1188" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 0326" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=voaabebbzkxr" trk="42" dists="2172"></car>
+<car t="5" id="56" rect="5449,839,6175,1163" flags="4096" type="5" outl="134,134,134" fill="255,255,255" len="552" wid="128" label="FGEX 1558" loaded="1" loadname="Empty" dest="CF" collname="o2o_Freight" cartype="PRR Rf" prop_str="rfid=nnr5zupek99l" trk="42" dists="1620"></car>
+<car t="5" id="24" rect="4780,803,5624,1143" type="3" fill="128,128,0" len="670" wid="140" label="PRR 7152" loaded="1" loadname="Express" dest="CF" collname="o2o_Passenger" cartype="Bd" trk="42" dists="1009"></car>
+<car t="5" id="17" rect="4228,783,4954,1107" flags="4096" type="7" outl="134,134,134" fill="192,192,192" len="552" wid="130" label="CNJ 7069" loaded="1" loadname="Gravel" dest="CF" collname="o2o_Freight" cartype="PRR Gr" prop_str="rfid=p2f5k5zonyte" trk="42" dists="398"></car>
 </cars>
 </trn>
 </trains>
