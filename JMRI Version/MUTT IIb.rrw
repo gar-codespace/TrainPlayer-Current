@@ -279,10 +279,10 @@
 <car t="5" id="18" rect="11645,1126,12001,1858" flags="266240" type="8" outl="102,51,0" fill="204,102,0" len="552" wid="128" label="PRR 4881" loaded="1" loadname="Empty" dest="T" collname="o2o_Freight" cartype="PRR Xg" prop_str="rfid=w1qcm530ft5z" trk="61" dists="988" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="20" dspeed="0" rev="1" horntype="0">
+<trn t="6" id="20" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="62" rect="10505,1516,11051,1978" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="31" dists="7"></car>
-<car t="5" id="1" rect="10094,1363,10728,1801" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="31" dists="412"></car>
+<car t="5" id="62" rect="10633,1577,11171,2061" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="PRR 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="85" dists="137"></car>
+<car t="5" id="1" rect="10232,1395,10862,1859" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="31" dists="268" gs="1"></car>
 </cars>
 </trn>
 </trains>
@@ -537,8 +537,8 @@ MW_LENGTH 3]]></script>
 </scripts>
 <notes>
 <note autofit="1">
-<scn t="16" id="1" rect="15,134,661,434" otype="9" text=" " bktype="1" fill="R:240,G:216,B:188" bktype_l="0" fill_l="R:0,G:0,B:128" font="90,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>155,9,755,562</wndrect>
+<scn t="16" id="1" rect="4,162,525,346" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
+<wndrect>162,4,290,525</wndrect>
 </note>
 </notes>
 </layout>
