@@ -300,10 +300,10 @@
 <car t="5" id="14" rect="3382,5876,4042,6222" flags="266240" type="-1" outl="95,95,95" fill="255,0,0" len="480" wid="127" label="UTLX 5968" loaded="1" loadname="Petroleum" dest="P" collname="o2o_Freight" cartype="Union Tank" prop_str="rfid=qthpfd32r9aa" trk="90" dists="197" gs="1"></car>
 </cars>
 </trn>
-<trn t="6" id="19" dspeed="0" horntype="0">
+<trn t="6" id="19" dspeed="0" horntype="0" selcarno="0">
 <cars>
-<car t="5" id="62" rect="1119,6621,1437,7155" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="MUTT 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="107" dists="1924"></car>
-<car t="5" id="1" rect="1101,6981,1415,7605" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="107" dists="1519"></car>
+<car t="5" id="62" rect="1117,6659,1435,7193" flags="4194304" type="-1" outl="95,95,95" fill="255,0,0" len="360" wid="131" label="MUTT 345" loadname="produce" dest="~" collname="o2o Locomotives" cartype="A4" prop_str="rfid=nf4qdjhqfdnc" trk="107" dists="1886"></car>
+<car t="5" id="1" rect="1100,7018,1414,7642" flags="4198400" type="-1" outl="95,95,95" fill="255,0,0" len="450" wid="124" label="PRR 829" dest="~" collname="o2o_Freight" cartype="Idler" trk="107" dists="1481"></car>
 </cars>
 </trn>
 </trains>
@@ -559,7 +559,7 @@ MW_LENGTH 3]]></script>
 <notes>
 <note autofit="1">
 <scn t="16" id="1" rect="4,162,525,346" otype="9" text=" " bktype="1" fill="R:228,G:224,B:218" bktype_l="0" fill_l="R:0,G:0,B:128" font="100,400,0,0,Courier New" txtcolor="R:0,G:0,B:0" align="0"></scn>
-<wndrect>162,4,738,582</wndrect>
+<wndrect>162,4,290,582</wndrect>
 </note>
 </notes>
 </layout>
